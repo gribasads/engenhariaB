@@ -20,9 +20,12 @@
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
+<<<<<<< HEAD
   <Events>
     <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="formFocusGained"/>
   </Events>
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
@@ -48,13 +51,20 @@
                   <Group type="102" attributes="0">
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
+<<<<<<< HEAD
+=======
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                           <Group type="102" attributes="0">
                               <Component id="addDespesa" min="-2" max="-2" attributes="0"/>
                               <EmptySpace pref="67" max="32767" attributes="0"/>
                               <Component id="addGanhos" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Component id="exibirSaldo" max="32767" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                       </Group>
                       <EmptySpace pref="49" max="32767" attributes="0"/>
                   </Group>
@@ -86,8 +96,13 @@
                   <Component id="addGanhos" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+=======
+              <Component id="jScrollPane1" min="-2" pref="116" max="-2" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
           </Group>
       </Group>
     </DimensionLayout>
@@ -139,6 +154,23 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addGanhosActionPerformed"/>
       </Events>
     </Component>
+<<<<<<< HEAD
+=======
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="historico">
+          <Events>
+            <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="historicoAncestorAdded"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     <Component class="javax.swing.JLabel" name="voltarTelaLogin">
       <Properties>
         <Property name="text" type="java.lang.String" value="&lt; Voltar para a tela de login"/>
@@ -147,6 +179,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="voltarTelaLoginMouseClicked"/>
       </Events>
     </Component>
+<<<<<<< HEAD
     <Container class="javax.swing.JScrollPane" name="jScrollPane2">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -177,5 +210,7 @@
         </Component>
       </SubComponents>
     </Container>
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
   </SubComponents>
 </Form>

@@ -5,11 +5,16 @@
  */
 package telas;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
+=======
+import javax.swing.JOptionPane;
+import teligamagrao.Pessoa;
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
 /**
  *
@@ -17,12 +22,19 @@ import javax.swing.JOptionPane;
  */
 public class Login extends javax.swing.JFrame {
 
+<<<<<<< HEAD
+=======
+    Pessoa p = new Pessoa();
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     /**
      * Creates new form Login
      */
     public Login() {
         initComponents();
+<<<<<<< HEAD
         
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     }
 
     /**
@@ -122,6 +134,7 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void entrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_entrarActionPerformed
+<<<<<<< HEAD
         try {                        
             Connection con = null;
             Class.forName("org.postgresql.Driver");
@@ -146,6 +159,18 @@ public class Login extends javax.swing.JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
+=======
+        String usuario = txtUsuario.getText();
+        String senha = String.valueOf(txtSenha.getPassword());
+        
+        if (usuario.equals(p.getUsuario()) && senha.equals(p.getSenha())){
+        TelaInicial inicio = new TelaInicial();
+        this.dispose();
+        inicio.setVisible(true);
+        }else {
+            JOptionPane.showMessageDialog(this, "ERRO! Email ou senha incorretos.");
+        }
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     }//GEN-LAST:event_entrarActionPerformed
 
     /**

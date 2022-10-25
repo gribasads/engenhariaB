@@ -38,7 +38,10 @@ public class AdicionarDespesa extends javax.swing.JFrame {
         txtData = new javax.swing.JTextField();
         cancelar = new javax.swing.JLabel();
         fixar = new javax.swing.JCheckBox();
+<<<<<<< HEAD
         addDespesa = new javax.swing.JButton();
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -71,6 +74,7 @@ public class AdicionarDespesa extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         addDespesa.setText("Salvar");
         addDespesa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,6 +82,8 @@ public class AdicionarDespesa extends javax.swing.JFrame {
             }
         });
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -99,8 +105,12 @@ public class AdicionarDespesa extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(addDespesa))
+=======
+                                        .addGap(0, 0, Short.MAX_VALUE))
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                                     .addComponent(txtDescricao))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(cancelar))
@@ -125,12 +135,20 @@ public class AdicionarDespesa extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(descricao)
                     .addComponent(txtDescricao, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(data)
                     .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(addDespesa))
                 .addGap(22, 22, 22))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(data)
+                    .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24))
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(cancelar)
@@ -154,6 +172,7 @@ public class AdicionarDespesa extends javax.swing.JFrame {
         inicio.setVisible(true);
     }//GEN-LAST:event_cancelarMouseClicked
 
+<<<<<<< HEAD
     private void addDespesaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addDespesaActionPerformed
         Pessoa p = new Pessoa();
         Double valor = Double.parseDouble(txtValorDespesa.getText());
@@ -162,6 +181,8 @@ public class AdicionarDespesa extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(rootPane, "VALOR DE "+valor+" ADICIONADO COMO DESPESA\n\nSALDO ATUAL: "+p.getSaldo());       
     }//GEN-LAST:event_addDespesaActionPerformed
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     /**
      * @param args the command line arguments
      */
@@ -205,7 +226,10 @@ public class AdicionarDespesa extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton addDespesa;
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     private javax.swing.JLabel adicionarDespesa;
     private javax.swing.JLabel adicioneDespesaAqui;
     private javax.swing.JLabel cancelar;

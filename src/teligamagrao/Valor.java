@@ -13,10 +13,16 @@ public class Valor {
     
     // atributos
     private Double valor;
+<<<<<<< HEAD
     private String idValor;
     private String titulo;
     private String descricao;
     private String data;
+=======
+    private String titulo;
+    private String descricao;
+    private Double data;
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     
     // getters e setters
     public Double getValor() {
@@ -26,6 +32,7 @@ public class Valor {
     public void setValor(Double valor) {
         this.valor = valor;
     }
+<<<<<<< HEAD
     
     public String getIdValor() {
         return idValor;
@@ -35,6 +42,9 @@ public class Valor {
         this.idValor = idValor;
     }
     
+=======
+
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     public String getTitulo() {
         return titulo;
     }
@@ -51,11 +61,19 @@ public class Valor {
         this.descricao = descricao;
     }
 
+<<<<<<< HEAD
     public String getData() {
         return data;
     }
 
     public void setData(String data) {
+=======
+    public Double getData() {
+        return data;
+    }
+
+    public void setData(Double data) {
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         this.data = data;
     }
 }

@@ -12,6 +12,7 @@ package teligamagrao;
 public class Pessoa {
    
     // atributos
+<<<<<<< HEAD
     private String usuario;
     private String idUsuario;
     private String senha;
@@ -20,6 +21,13 @@ public class Pessoa {
     private Double limite;
     private String historico;
     private int id;    
+=======
+    private String usuario = "teste";
+    private String senha = "1234";
+    private String nome;
+    private Double saldo = 10000.00;
+    private String historico = "Valor X - R$ XXXX,XX\nValor X - R$ XXXX,XX\nValor X - R$ XXXX,XX\nValor X - R$ XXXX,XX\nValor X - R$ XXXX,XX\n";
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
     // getters e setters
     public String getUsuario() {
@@ -30,6 +38,7 @@ public class Pessoa {
         this.usuario = usuario;
     }
     
+<<<<<<< HEAD
     public String getIdUsuario() {
         return idUsuario;
     }
@@ -38,6 +47,8 @@ public class Pessoa {
         this.idUsuario = idUsuario;
     }
     
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     public String getSenha() {
         return senha;
     }
@@ -69,6 +80,7 @@ public class Pessoa {
     public void setHistorico(String historico) {
         this.historico = historico;
     }
+<<<<<<< HEAD
     
     public Double getLimite() {
         return limite;
@@ -85,4 +97,6 @@ public class Pessoa {
     public void setId(int id) {
         this.id = id;
     }
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 }

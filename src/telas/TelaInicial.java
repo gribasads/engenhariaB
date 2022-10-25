@@ -5,19 +5,27 @@
  */
 package telas;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 import javax.swing.JOptionPane;
 import teligamagrao.Pessoa;
 /**
  *
  * @author ArthurCyrilloGeiger
  */
+<<<<<<< HEAD
 public class TelaInicial extends javax.swing.JFrame{
 
     private Login Login;
+=======
+public class TelaInicial extends javax.swing.JFrame {
+
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     /**
      * Creates new form TelaInicial
      */
@@ -41,20 +49,29 @@ public class TelaInicial extends javax.swing.JFrame{
         exibirSaldo = new javax.swing.JTextField();
         addDespesa = new javax.swing.JButton();
         addGanhos = new javax.swing.JButton();
+<<<<<<< HEAD
         voltarTelaLogin = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         ListaHistorico = new javax.swing.JList<>();
+=======
+        jScrollPane1 = new javax.swing.JScrollPane();
+        historico = new javax.swing.JTextPane();
+        voltarTelaLogin = new javax.swing.JLabel();
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
         jLabel4.setText("jLabel4");
 
         jLabel5.setText("jLabel5");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+<<<<<<< HEAD
         addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 formFocusGained(evt);
             }
         });
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
         telaInicial.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         telaInicial.setText("Tela inicial");
@@ -66,11 +83,19 @@ public class TelaInicial extends javax.swing.JFrame{
         exibirSaldo.setRequestFocusEnabled(false);
         exibirSaldo.setVerifyInputWhenFocusTarget(false);
         exibirSaldo.addAncestorListener(new javax.swing.event.AncestorListener() {
+<<<<<<< HEAD
             public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
             }
             public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
                 exibirSaldoAncestorAdded(evt);
             }
+=======
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                exibirSaldoAncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
             public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
             }
         });
@@ -89,6 +114,20 @@ public class TelaInicial extends javax.swing.JFrame{
             }
         });
 
+<<<<<<< HEAD
+=======
+        historico.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                historicoAncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
+        jScrollPane1.setViewportView(historico);
+
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         voltarTelaLogin.setText("< Voltar para a tela de login");
         voltarTelaLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -96,6 +135,7 @@ public class TelaInicial extends javax.swing.JFrame{
             }
         });
 
+<<<<<<< HEAD
         ListaHistorico.setFont(new java.awt.Font("Gadugi", 1, 12)); // NOI18N
         ListaHistorico.setForeground(new java.awt.Color(255, 0, 51));
         ListaHistorico.setModel(new javax.swing.AbstractListModel<String>() {
@@ -106,6 +146,8 @@ public class TelaInicial extends javax.swing.JFrame{
         ListaHistorico.setMaximumSize(new java.awt.Dimension(5, 999));
         jScrollPane2.setViewportView(ListaHistorico);
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -119,12 +161,20 @@ public class TelaInicial extends javax.swing.JFrame{
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+<<<<<<< HEAD
+=======
+                            .addComponent(jScrollPane1)
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(addDespesa)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
                                 .addComponent(addGanhos))
+<<<<<<< HEAD
                             .addComponent(exibirSaldo)
                             .addComponent(jScrollPane2))
+=======
+                            .addComponent(exibirSaldo))
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                         .addContainerGap(49, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -147,8 +197,13 @@ public class TelaInicial extends javax.swing.JFrame{
                     .addComponent(addDespesa)
                     .addComponent(addGanhos))
                 .addGap(18, 18, 18)
+<<<<<<< HEAD
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(22, Short.MAX_VALUE))
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         );
 
         addDespesa.getAccessibleContext().setAccessibleName("+ Despesas");
@@ -170,7 +225,18 @@ public class TelaInicial extends javax.swing.JFrame{
 
     }//GEN-LAST:event_addGanhosActionPerformed
 
+<<<<<<< HEAD
     private void exibirSaldoAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_exibirSaldoAncestorAdded
+=======
+    private void historicoAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_historicoAncestorAdded
+        Pessoa p = new Pessoa();
+        historico.setText(""+p.getHistorico());
+    }//GEN-LAST:event_historicoAncestorAdded
+
+    private void exibirSaldoAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_exibirSaldoAncestorAdded
+        Pessoa p = new Pessoa();
+        exibirSaldo.setText("R$ "+p.getSaldo());
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     }//GEN-LAST:event_exibirSaldoAncestorAdded
 
     private void voltarTelaLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_voltarTelaLoginMouseClicked
@@ -179,12 +245,15 @@ public class TelaInicial extends javax.swing.JFrame{
         login.setVisible(true);
     }//GEN-LAST:event_voltarTelaLoginMouseClicked
 
+<<<<<<< HEAD
     private void formFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_formFocusGained
         Pessoa p = new Pessoa();
         Double saldo = p.getSaldo();
         Double limite = p.getLimite();
     }//GEN-LAST:event_formFocusGained
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     /**
      * @param args the command line arguments
      */
@@ -221,6 +290,7 @@ public class TelaInicial extends javax.swing.JFrame{
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JList<String> ListaHistorico;
     private javax.swing.JButton addDespesa;
     private javax.swing.JButton addGanhos;
@@ -228,9 +298,24 @@ public class TelaInicial extends javax.swing.JFrame{
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane2;
+=======
+    private javax.swing.JButton addDespesa;
+    private javax.swing.JButton addGanhos;
+    private javax.swing.JTextField exibirSaldo;
+    private javax.swing.JTextPane historico;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JScrollPane jScrollPane1;
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     private javax.swing.JLabel saldoDisponivel;
     private javax.swing.JLabel telaInicial;
     private javax.swing.JLabel voltarTelaLogin;
     // End of variables declaration//GEN-END:variables
 
+<<<<<<< HEAD
+=======
+    private void setText(String exibir_saldo) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 }

@@ -38,7 +38,10 @@ public class AdicionarGanho extends javax.swing.JFrame {
         txtData = new javax.swing.JTextField();
         cancelar = new javax.swing.JLabel();
         fixar = new javax.swing.JCheckBox();
+<<<<<<< HEAD
         addGanho = new javax.swing.JButton();
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -71,6 +74,7 @@ public class AdicionarGanho extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         addGanho.setText("Salvar");
         addGanho.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,6 +82,8 @@ public class AdicionarGanho extends javax.swing.JFrame {
             }
         });
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -97,10 +103,14 @@ public class AdicionarGanho extends javax.swing.JFrame {
                                     .addComponent(dataGanho))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(addGanho))
+=======
+                                    .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                                     .addComponent(txtDescricao))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(cancelar))
@@ -125,12 +135,20 @@ public class AdicionarGanho extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(descricao)
                     .addComponent(txtDescricao, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(dataGanho)
                     .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(addGanho))
                 .addGap(22, 22, 22))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(dataGanho)
+                    .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24))
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(cancelar)
@@ -154,6 +172,7 @@ public class AdicionarGanho extends javax.swing.JFrame {
         inicio.setVisible(true);
     }//GEN-LAST:event_cancelarMouseClicked
 
+<<<<<<< HEAD
     private void addGanhoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addGanhoActionPerformed
         Pessoa p = new Pessoa();
         
@@ -163,6 +182,8 @@ public class AdicionarGanho extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(rootPane, "VALOR DE "+valor+" ADICIONADO COMO GANHO\n\nSALDO ATUAL: "+p.getSaldo());
     }//GEN-LAST:event_addGanhoActionPerformed
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     /**
      * @param args the command line arguments
      */
@@ -202,7 +223,10 @@ public class AdicionarGanho extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton addGanho;
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     private javax.swing.JLabel adicionarGanho;
     private javax.swing.JLabel adicioneGanhoAqui;
     private javax.swing.JLabel cancelar;

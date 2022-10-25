@@ -7,8 +7,11 @@ package telas;
 
 import javax.swing.JOptionPane;
 import teligamagrao.Pessoa;
+<<<<<<< HEAD
 import teligamagrao.Valor;
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 /**
  *
  * @author ArthurCyrilloGeiger
@@ -41,12 +44,16 @@ public class Visualizar extends javax.swing.JFrame {
         txtValor = new javax.swing.JTextField();
         deletarValor = new javax.swing.JButton();
         voltarTelaInicial = new javax.swing.JLabel();
+<<<<<<< HEAD
         editar = new javax.swing.JButton();
         salvar = new javax.swing.JButton();
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         tituloValor.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+<<<<<<< HEAD
         tituloValor.setText("titulo teste");
         tituloValor.addAncestorListener(new javax.swing.event.AncestorListener() {
             public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
@@ -73,10 +80,19 @@ public class Visualizar extends javax.swing.JFrame {
             public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
             }
         });
+=======
+        tituloValor.setText("Valor 1");
+
+        descricao.setText("Descrição:");
+
+        txtDescricao.setColumns(20);
+        txtDescricao.setRows(5);
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         jScrollPane1.setViewportView(txtDescricao);
 
         data.setText("Data: ");
 
+<<<<<<< HEAD
         txtData.setEditable(false);
         txtData.setFocusable(false);
         txtData.addAncestorListener(new javax.swing.event.AncestorListener() {
@@ -103,6 +119,10 @@ public class Visualizar extends javax.swing.JFrame {
             }
         });
 
+=======
+        valor.setText("Valor:");
+
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         deletarValor.setText("Deletar Valor");
         deletarValor.setToolTipText("");
         deletarValor.addActionListener(new java.awt.event.ActionListener() {
@@ -118,6 +138,7 @@ public class Visualizar extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         editar.setText("Editar Valor");
 
         salvar.setText("Salvar Valor");
@@ -127,6 +148,8 @@ public class Visualizar extends javax.swing.JFrame {
             }
         });
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -145,6 +168,7 @@ public class Visualizar extends javax.swing.JFrame {
                             .addComponent(valor))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 66, Short.MAX_VALUE))
@@ -157,6 +181,16 @@ public class Visualizar extends javax.swing.JFrame {
                                     .addComponent(deletarValor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(editar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(salvar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
+=======
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(txtData, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txtValor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)))
+                        .addGap(0, 66, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(deletarValor)))
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -170,6 +204,7 @@ public class Visualizar extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(descricao)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -189,6 +224,19 @@ public class Visualizar extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(salvar)
                         .addContainerGap())))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(data)
+                    .addComponent(txtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(valor)
+                    .addComponent(txtValor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(3, 3, 3)
+                .addComponent(deletarValor)
+                .addContainerGap())
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
         );
 
         pack();
@@ -204,6 +252,7 @@ public class Visualizar extends javax.swing.JFrame {
         inicio.setVisible(true);
     }//GEN-LAST:event_voltarTelaInicialMouseClicked
 
+<<<<<<< HEAD
     private void txtDescricaoAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_txtDescricaoAncestorAdded
         Valor v = new Valor();
         txtDescricao.setText(v.getDescricao());
@@ -228,6 +277,8 @@ public class Visualizar extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_salvarActionPerformed
 
+=======
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     /**
      * @param args the command line arguments
      */
@@ -267,9 +318,13 @@ public class Visualizar extends javax.swing.JFrame {
     private javax.swing.JLabel data;
     private javax.swing.JButton deletarValor;
     private javax.swing.JLabel descricao;
+<<<<<<< HEAD
     private javax.swing.JButton editar;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton salvar;
+=======
+    private javax.swing.JScrollPane jScrollPane1;
+>>>>>>> 5cd5844c850e4628a66e2d6ab1c92430a0c095c1
     private javax.swing.JLabel tituloValor;
     private javax.swing.JTextField txtData;
     private javax.swing.JTextArea txtDescricao;
